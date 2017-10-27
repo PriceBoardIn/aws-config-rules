@@ -299,3 +299,11 @@ Description: Check that no RDS Instances are in Public Subnet.
 
 Trigger Type: ```Change Triggered```
 Required Parameter: ```None```
+
+### 35. Check that bucket policy is not attached to an S3 Bucket.
+Description: Check that bucket policy is not attached to an S3 Bucket.
+
+	python/s3_bucket_policy_prohibited.py
+
+Trigger Type: ```Change Triggered```
+Required Parameter: ```None```
